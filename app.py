@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return ('Server 1 is Up')
+    return ('ABC Service is Up')
 
 
 if __name__ == '__main__':
